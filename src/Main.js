@@ -15,9 +15,29 @@ class Main extends Component{
             <HashRouter>
                 <div>
                     <ul className="header">
-                        <li><NavLink to="/">HTML</NavLink></li>
-                        <li><NavLink to="/JavaScript">JavaScript</NavLink></li>
-                        <li><NavLink to="/SQL">SQL</NavLink></li>
+                        <li><NavLink 
+                                to="/"
+                                className={({ isActive }) =>
+                                    (isActive ? "active-class" : "not-active-class")}
+                                >HTML
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to="/JavaScript"
+                                className={({ isActive }) =>
+                                    (isActive ? "active-class" : "not-active-class")}
+                                >JavaScript
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to="/SQL"
+                                className={({ isActive}) =>
+                                    (isActive ? "active-class" : "not-active-class")}
+                                >SQL
+                            </NavLink>
+                        </li>
                     </ul>
                     <div className="content">
                         <Routes>
