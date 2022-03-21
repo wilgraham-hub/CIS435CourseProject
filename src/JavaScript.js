@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import JavaScriptLogo from "./images/JavaScript.png";
 
 class References extends Component {
     render() {
         return (
             <div>
                 <span class="a" id="left">
+                <div><img class="image" src={JavaScriptLogo} alt="HTML Logo" height="150" width="400"/></div>
                     <h1 id="left-header">JavaScript Tutorial</h1>
                     <p>
                         JavaScript is the world's most popular programming language.<br></br>
@@ -37,8 +39,10 @@ class References extends Component {
                     <h1 id="right-header">"Try it Yourself" Result:</h1>
                     <p></p>
                     <p></p>
-                    <h1>My First JavaScript</h1>
-                    <button>Click me to display Date and Time</button>
+                    <div class="result-box">
+                        <h1>My First JavaScript</h1>
+                        <button>Click me to display Date and Time</button>
+                    </div>
                 </span>
             </div>
         );

@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import htmlLogo from './images/HTML.png'
 
 class Html extends Component {
     render() {
         return (
             <div>
                 <span class="a" id="left">
+                <div><img class="image" src={htmlLogo} alt="HTML Logo" height="150" width="400"/></div>
                     <h1 id="left-header">HTML Tutorial</h1>
                     <p>
                         HTML is the standard markup language for Web pages.<br></br>
@@ -30,15 +32,17 @@ class Html extends Component {
                     <p></p>
                     <p>&lt;/body&gt;</p>
                     <p>&lt;/html&gt;</p>
-                    <button>Compile</button>
+                    <button class="compile-button">Compile</button>
                 </span>
                 <span class="a" id="right">
                     <h1 id="right-header">"Try it Yourself" Result:</h1>
                     <p></p>
                     <p></p>
-                    <h1>This is a Heading</h1>
-                    <p>This is a paragraph</p>
-                </span>
+                    <div class="result-box">
+                        <h1>This is a Heading</h1>
+                        <p>This is a paragraph</p>
+                    </div>
+                </span>                
             </div>
         );
     }

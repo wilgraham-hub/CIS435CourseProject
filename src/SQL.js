@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import SqlLogo from "./images/Sql.png";
 
 class Exercises extends Component {
     render() {
         return (
             <>
                 <span class="a" id="left">
+                <div><img class="image" src={SqlLogo} alt="HTML Logo" height="150" width="400"/></div>
                     <h1 id="left-header">SQL Tutorial</h1>
                     <p>
                         SQL is the standard language for storing, manipulating and retrieving data in databases<br></br>
@@ -25,7 +27,9 @@ class Exercises extends Component {
                     <h1 id="right-header">"Try it Yourself" Result:</h1>
                     <p></p>
                     <p></p>
-                    <h1>SQL QUERY RESULT</h1>
+                    <div class="result-box">
+                        <h1>SQL QUERY RESULT</h1>
+                    </div>
                 </span>
             </>
         );
