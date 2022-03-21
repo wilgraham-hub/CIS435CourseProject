@@ -33,7 +33,7 @@ class References extends Component {
                     <p></p>
                     <p>&lt;/body&gt;</p>
                     <p>&lt;/html&gt;</p>
-                    <button>Compile</button>
+                    <button class="compile-button">Compile</button>
                 </span>
                 <span class="a" id="right">
                     <h1 id="right-header">"Try it Yourself" Result:</h1>

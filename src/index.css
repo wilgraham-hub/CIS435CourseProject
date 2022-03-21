@@ -49,6 +49,7 @@ span.a{
     text-decoration: underline;
 }
 #center{
+    position: relative;
     background-color: black;
     color: red;
     height: 400px;
@@ -69,4 +70,16 @@ div.result-box{
     height: 350px;
     border: 2px solid;
     border-color: black;
+}
+button.compile-button{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(58, 93, 167);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    bottom: 0;
+    right: 0;
+
 }

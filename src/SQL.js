@@ -21,7 +21,7 @@ class Exercises extends Component {
                 </span>
                 <span class="a" id="center">
                     <p>SELECT * FROM Customers</p>
-                    <button>Query</button>
+                    <button class="compile-button">Query</button>
                 </span>
                 <span class="a" id="right">
                     <h1 id="right-header">"Try it Yourself" Result:</h1>
