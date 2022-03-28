@@ -13,18 +13,23 @@ class Exercises extends Component {
                         Our SQL tutorial will teach you how to use SQL in : MySQL, SQL Server, MS Access, Oracle,<br></br>
                         Sybase, Informix, Postgres, and other database systems
                     </p>
-                    <h1 id="left-header">"Try it Yourself</h1>
+                    <h1 id="left-header">Example</h1>
                     <p>
-                    With or "Try it Yourself" editor, you can edit the SQL<br></br>
-                    statements, click query and view the result:<br></br>
+                        An example of how SQL would look in an editor has been <br></br>
+                        provided to the right of this text. Further to the right you <br></br>
+                        can see the sample output.<br></br>
                     </p>
                 </span>
                 <span class="a" id="center">
-                    <p>SELECT * FROM Customers</p>
-                    <button class="compile-button">Query</button>
+                    <p>
+                        <span class="dark-blue">SELECT </span>
+                        *
+                        <span class="dark-blue"> FROM </span>
+                         Customers
+                    </p>
                 </span>
                 <span class="a" id="right">
-                    <h1 id="right-header">"Try it Yourself" Result:</h1>
+                    <h1 id="right-header">Result:</h1>
                     <p></p>
                     <p></p>
                     <div class="result-box">

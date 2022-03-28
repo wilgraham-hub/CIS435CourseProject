@@ -14,29 +14,72 @@ class References extends Component {
                         JavaScript is easy to learn.<br></br>
                         This tutorial will teach you JavaScript from basic to advanced
                     </p>
-                    <h1 id="left-header">"Try it Yourself</h1>
+                    <h1 id="left-header">Example</h1>
                     <p>
-                    With or "Try it Yourself" editor, you can edit the source<br></br>
-                    code, click compile and view the result:<br></br>
+                        An example of how JavaScript would look in an editor has<br></br>
+                        been provided to the right of this text. Further to the right you <br></br>
+                        can see the sample output.<br></br>
                     </p>
                 </span>
                 <span class="a" id="center">
-                    <p>&lt;!DOCTYPE html&gt;</p>
-                    <p>&lt;html&gt;</p>
-                    <p>&lt;body&gt;</p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="dark-blue">!DOCTYPE</span>
+                        <span class="blue"> html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">body</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                     <p></p>
-                    <p>&lt;button type="button"<br></br>
-                    onClick="document.getElementById('demo').innerHTML = Date()"&gt;</p>
-                    <p>Click me to display Date and Time.</p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">button type</span>
+                        =
+                        <span class="red">"button"</span><br></br>
+                        <span class="blue">onClick</span>
+                        =
+                        <span class="red">"document.getElementById('demo').innerHTML = Date()"</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        Click me to display Date and Time.
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/button</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                     <p></p>
-                    <p>&lt;p id="demo"&gt;/p</p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">p id</span>
+                        =
+                        <span class="red">"demo"</span>
+                        <span class="gray">&gt;</span>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/p</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                     <p></p>
-                    <p>&lt;/body&gt;</p>
-                    <p>&lt;/html&gt;</p>
-                    <button class="compile-button">Compile</button>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/body</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                 </span>
                 <span class="a" id="right">
-                    <h1 id="right-header">"Try it Yourself" Result:</h1>
+                    <h1 id="right-header">Result:</h1>
                     <p></p>
                     <p></p>
                     <div class="result-box">

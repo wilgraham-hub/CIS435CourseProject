@@ -13,29 +13,82 @@ class Html extends Component {
                         With HTML you can create your own Website.<br></br>
                         HTML is easy to learn - You will enjoy it!
                     </p>
-                    <h1 id="left-header">"Try it Yourself</h1>
+                    <h1 id="left-header">Example</h1>
                     <p>
-                    With or "Try it Yourself" editor, you can edit the HTML<br></br>
-                    code, click compile and view the result:<br></br>
+                        An example of how HTML would look in an editor has been <br></br>
+                        provided to the right of this text. Further to the right you <br></br>
+                        can see the sample output.<br></br>
                     </p>
                 </span>
                 <span class="a" id="center">
-                    <p>&lt;!DOCTYPE html&gt;</p>
-                    <p>&lt;html&gt;</p>
-                    <p>&lt;head&gt;</p>
-                    <p>&lt;title&gt;PageTitle&lt;/title&gt;</p>
-                    <p>&lt;/head&gt;</p>
-                    <p>&lt;body&gt;</p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="dark-blue">!DOCTYPE</span>
+                        <span class="blue"> html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">head</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">title</span>
+                        <span class="gray">&gt;</span>
+                        PageTitle
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/title</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/head</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">body</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                     <p></p>
-                    <p>&lt;h1&gt;This is a Heading&lt;/h1&gt;</p>
-                    <p>&lt;p&gt;This is a paragraph&lt;/p&gt;</p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">h1</span>
+                        <span class="gray">&gt;</span>
+                        This is a Heading
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/h1</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">p</span>
+                        <span class="gray">&gt;</span>
+                        This is a paragraph
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/p</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                     <p></p>
-                    <p>&lt;/body&gt;</p>
-                    <p>&lt;/html&gt;</p>
-                    <button class="compile-button">Compile</button>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/body</span>
+                        <span class="gray">&gt;</span>
+                    </p>
+                    <p>
+                        <span class="gray">&lt;</span>
+                        <span class="blue">/html</span>
+                        <span class="gray">&gt;</span>
+                    </p>
                 </span>
                 <span class="a" id="right">
-                    <h1 id="right-header">"Try it Yourself" Result:</h1>
+                    <h1 id="right-header">Result:</h1>
                     <p></p>
                     <p></p>
                     <div class="result-box">

@@ -34,6 +34,7 @@ ul.header li a {
 }
 .active-class{
     background-color: rgb(11, 11, 99) !important;
+    color: white !important;
 }
 span.a{
     display: inline-block;
@@ -51,7 +52,7 @@ span.a{
 #center{
     position: relative;
     background-color: black;
-    color: red;
+    color: white;
     height: 400px;
 }
 #right{
@@ -81,4 +82,16 @@ button.compile-button{
     bottom: 0;
     right: 0;
 
+}
+.gray{
+    color: gray;
+}
+.dark-blue{
+    color:rgb(53, 53, 189);
+}
+.blue{
+    color:rgb(58, 93, 167);
+}
+.red{
+    color:rgb(150, 76, 53)
 }
